@@ -67,3 +67,31 @@ header img {
     line-height: 18px;
     color: var(--soft-orange)
 }
+.header--title-container .header--button {
+    position: absolute; /*Absolute puedo utilizar bottom, top, left y right para mover en esas posiciones para mover mi elemento. y si utilizo otro position no se va poder*/
+    left: calc(50% - 118px); /*Calc es de calcular y agregar ciertos estilos especiales de posicion.*/
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding:15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    /*Sombra*/
+    box-shadow: 0px 4px 8px rgba(89,73,30, 0.16);
+    border:none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+.header--button span {
+    display: inline-block;
+    width: 13px;
+    height: 18px;
+    margin-left: 10px;
+    background-image: url('./assets/icons/down-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
